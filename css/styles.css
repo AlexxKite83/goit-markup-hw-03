@@ -1,0 +1,224 @@
+:root {
+  --color-navy-blue: #2e2f42;
+  --color-cloud: #f4f4fd;
+  --color-white: #ffffff;
+  --color-ocean: #404bbf;
+  --color-iris: #4d5ae5;
+  --color-slate: #434455;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--color-slate);
+  background-color: var(--color-white);
+}
+/* inherit - наследование свойств родителя */
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  /* display: flex;
+  align-items: center; */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-iris);
+}
+
+.header-logo-studio {
+  color: var(--color-navy-blue);
+}
+.navigation-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
+}
+
+.navigation-link:is(:hover, :focus) {
+  color: var(--color-ocean);
+}
+
+.header-address {
+  font-style: normal;
+}
+.contacts-link {
+  font-family: "Roboto";
+  /* font-weight: 400; */
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
+}
+
+.contacts-link:is(:hover, :focus) {
+  color: var(--color-ocean);
+}
+
+.hero {
+  /* width: 1440px;
+  height: 600px;
+  left: 0px;
+  top: 72px; */
+  background: var(--color-navy-blue);
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-white);
+}
+
+.button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-white);
+  background: var(--color-iris);
+  cursor: pointer;
+}
+
+.button:is(:hover, :focus) {
+  background: var(--color-ocean);
+}
+
+.advantages-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
+}
+
+.advantages-content {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
+}
+
+.section-projects-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-navy-blue);
+}
+
+.section-team {
+  background-color: var(--color-cloud);
+}
+
+.team-main-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-navy-blue);
+}
+
+.team-list-item {
+  background-color: var(--color-white);
+}
+
+.team-item-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  /* text-align: center; */
+  letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
+}
+
+.team-item-text {
+  /* font-weight: 400; */
+  font-size: 16px;
+  line-height: 1.5;
+  /* text-align: center; */
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
+}
+
+.footer {
+  background: var(--color-navy-blue);
+}
+
+.footer-logo-studio {
+  color: var(--color-cloud);
+}
+
+.footer-text {
+  /* font-weight: 400; */
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-cloud);
+}
+
+/* portfolio */
+.portfolio-hero-header {
+}
+.filters-header {
+}
+.filters-list {
+}
+
+.portfolio-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  /* display: flex;
+  align-items: center;
+  text-align: center; */
+  letter-spacing: 0.04em;
+  /* IRIS */
+  color: var(--color-iris);
+  background: var(--color-cloud);
+  cursor: pointer;
+}
+
+.portfolio-button:is(:hover, :focus) {
+  color: var(--color-white);
+
+  background: var(--color-ocean);
+}
+
+.portfolio-projects-header {
+}
+.portfolio-projects-list {
+}
+.portfolio-projets-item {
+}
+.project-item-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
+}
+.project-item-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
+}
