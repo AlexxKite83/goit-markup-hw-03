@@ -337,6 +337,8 @@ body {
 }
 
 .item-portfolio {
+  display: block;
+  width: 360px;
   margin-left: 24px;
   margin-bottom: 48px;
 }
