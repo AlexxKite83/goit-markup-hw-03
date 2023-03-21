@@ -5,7 +5,6 @@
   --color-ocean: #404bbf;
   --color-iris: #4d5ae5;
   --color-slate: #434455;
-  --background-color: #e5e5e5;
 }
 
 p,
@@ -38,7 +37,7 @@ img {
 body {
   font-family: "Roboto", sans-serif;
   color: var(--color-slate);
-  background-color: var(--background-color);
+  background-color: var(--color-white);
 }
 /* inherit - наследование свойств родителя */
 .list {
