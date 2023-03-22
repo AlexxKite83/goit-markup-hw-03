@@ -362,6 +362,9 @@ body {
 
 .portfolio-item-container {
   padding: 32px 16px;
+  border-bottom: 1px solid #E7E9FC;
+  border-left:  1px solid #E7E9FC;
+  border-right:  1px solid #E7E9FC;
 }
 
 .portfolio-projets-item {
