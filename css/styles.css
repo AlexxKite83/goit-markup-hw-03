@@ -22,6 +22,12 @@ ul {
   padding-left: 0;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: var(--color-slate);
@@ -137,9 +143,9 @@ body {
   height: 600px;
   left: 0px;
   top: 72px; */
-  height: 600px;
-  /* padding-top: 188px;
-  padding-bottom: 188px; */
+  /* height: 600px; */
+  padding-top: 188px;
+  padding-bottom: 188px;
   text-align: center;
   background: var(--color-navy-blue);
 }
@@ -148,7 +154,7 @@ body {
   display: block;
   width: 496px;
   margin: 0 auto;
-  padding-top: 188px;
+  /* padding-top: 188px; */
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -167,6 +173,8 @@ body {
   letter-spacing: 0.04em;
   color: var(--color-white);
   background: var(--color-iris);
+  border-radius: 4px;
+  border-color: transparent;
   cursor: pointer;
 }
 
@@ -174,10 +182,12 @@ body {
   background: var(--color-ocean);
 }
 
+.section-advantages {
+  padding: 120px 0;
+}
 .advantages-list {
   display: flex;
   justify-content: space-between;
-  padding: 120px 0;
 }
 
 .advantages-item {
@@ -200,6 +210,9 @@ body {
   color: var(--color-slate);
 }
 
+.section-projects {
+  padding-bottom: 120px;
+}
 .section-projects-header {
   margin-bottom: 72px;
   font-weight: 700;
@@ -214,12 +227,13 @@ body {
 .section-projects-list {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 120px;
+  /* margin-bottom: 120px; */
 }
 
 .section-team {
   background-color: var(--color-cloud);
-  padding: 120px 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .team-main-header {
@@ -230,6 +244,8 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-navy-blue);
+
+  margin-bottom: 72px;
 }
 
 .team-list {
@@ -238,8 +254,12 @@ body {
 }
 .team-list-item {
   background-color: var(--color-white);
+  border-radius: 0px 0px 4px 4px;
 }
 
+.team-item-block {
+  padding: 32px 0;
+}
 .team-item-header {
   font-weight: 500;
   font-size: 20px;
@@ -260,12 +280,14 @@ body {
 
 .footer {
   background: var(--color-navy-blue);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-block {
   display: block;
   width: 264px;
-  padding: 100px 0;
+  /* padding: 100px 0; */
 }
 
 .footer-logo-studio {
