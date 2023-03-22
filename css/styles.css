@@ -356,8 +356,6 @@ body {
 .item-portfolio {
   /* width: 360px; */
   flex-basis: calc((100% - 48px) / 3);
-  /* margin-left: 24px;
-  margin-bottom: 48px; */
 }
 
 .portfolio-item-container {
@@ -366,6 +364,7 @@ body {
   border-left:  1px solid #E7E9FC;
   border-right:  1px solid #E7E9FC;
 }
+
 
 .portfolio-projets-item {
 }
